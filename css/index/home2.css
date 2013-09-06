@@ -1,0 +1,58 @@
+div.search {
+    margin: 0 auto;
+    width: 500px;
+
+}
+div.search input.name {
+    float: left;
+    width: 380px;
+    height: 30px;
+    padding: 5px;
+    line-height: 30px;
+    border: 1px solid #aaa;
+}
+div.search input.search {
+    float: left;
+    width: 100px;
+    height: 42px;
+    margin-left: 5px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+div.login {
+    position: absolute;
+    width: 200px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+
+div.content {
+    width: 1200px;
+    margin: 100px auto;
+}
+div.content table {
+    float: left;
+    width: 100%;
+}
+div.content table th {
+    border: 1px solid #aaa;
+}
+div.content table td {
+    padding: 10px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+div.content table td.title {
+    width: 100px;
+}
+div.content table td.author {
+    width: 200px;
+}
+div.content table td.action {
+    width: 100px;
+    text-align: center;
+}
