@@ -34,25 +34,25 @@ div.content {
     width: 1200px;
     margin: 100px auto;
 }
-div.content table {
+div.content table.list {
     float: left;
     width: 100%;
 }
-div.content table th {
+div.content table.list th {
     border: 1px solid #aaa;
 }
-div.content table td {
+div.content table.list td {
     padding: 10px;
     border: 1px solid #aaa;
     background-color: #fff;
 }
-div.content table td.title {
-    width: 100px;
+div.content table.list td.title {
+    width: 150px;
 }
-div.content table td.author {
-    width: 200px;
+div.content table.list td.author {
+    width: 150px;
 }
-div.content table td.action {
+div.content table.list td.action {
     width: 100px;
     text-align: center;
 }
